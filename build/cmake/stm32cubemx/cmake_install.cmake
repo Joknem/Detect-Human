@@ -1,4 +1,4 @@
-# Install script for directory: /Users/joknem/Desktop/workspace/Radar_Test/cmake/stm32cubemx
+# Install script for directory: /home/joknem/workspace/Detect-Human/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,8 +32,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Applications/ArmGNUToolchain/12.2.mpacbti-rel1/arm-none-eabi/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
